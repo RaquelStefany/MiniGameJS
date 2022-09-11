@@ -1,2 +1,3 @@
 # MiniGame
- MiniGame em HTML, CSS e JavaScript
+
+MiniGame em HTML, CSS e JavaScript

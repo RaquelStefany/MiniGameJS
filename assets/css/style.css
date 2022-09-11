@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh;
+}
+
+main{
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.minigame{
+    border: 15px outset #333;
+    padding: 10px 20px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 6px 6px 5px grey;
+    background: linear-gradient(to bottom right, white, aliceblue);
+}
+
+#jogo{
+    display: grid;
+}
+
+.jogos, video{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 15px outset #333;
+    margin: 10px;
+    box-shadow: 6px 6px 5px grey;
+    width: 220px;
+    height: 200px;
+    object-fit: cover;
+}
+
+span{
+    margin: -30px 10px 0;
+    box-shadow: 6px 6px 5px grey;
+    background: black;
+    color: white;
+    border: 15px outset #333;
+    border-top-width: 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.start{
+    margin-top: 15px;
+}
+
+.start button{
+    border: 10px outset #333;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 0 10px;
+    margin: 0 25px;
+    background-color: lightcoral;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.start button:hover{
+    background-color: red;
+    border: 10px outset #000;
+}
+
+.start button:nth-child(2){
+    background-color: yellowgreen;
+}
+
+.start button:hover:nth-child(2){
+    background-color: green;
+    border: 10px outset #000;
+}
+
+.navigation{
+    margin-top: 5px;
+}
+
+.top{
+    margin-bottom: 3px;
+}
+
+#ok{
+    height: 52px;
+    width: 52px;
+}
+
+.bottom{
+    margin-top: 3px;
+}
+
+.navigation button{
+    border: 10px outset #333;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    color: #333;
+    font-size: large;
+    margin: 0 1px;
+    background-color: lightblue;
+    box-shadow: 2px 2px 3px grey;
+}
+
+.navigation button:hover{
+    background-color: cornflowerblue;
+    border: 10px outset #000;
+}

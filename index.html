@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/favicon/favicon.png" type="image/x-icon">
+    <title>
+        MiniGame
+    </title>
+</head>
+<body>
+    <main>
+        <h1>
+            PirateBoy
+        </h1>
+        <br>
+        <div class="minigame">
+            <div id="jogo">
+                <img src="assets/img/jogos/mario-super.gif" alt="Jogos" class="jogos">
+            </div>
+            <br>
+            <div class="start">
+                <button onclick="off()">
+                    Off
+                </button>
+                <button onclick="on()">
+                    On
+                </button>
+            </div>
+            <div class="navigation">
+                <div class="top">
+                    <button onclick="up()">
+                        ↑
+                    </button>
+                </div>
+                <div class="center">
+                    <button onclick="left()">
+                        ←
+                    </button>
+                    <button onclick="ok()">
+                        OK
+                    </button>
+                    <button onclick="right()">
+                        →
+                    </button>
+                </div>
+                <div class="bottom">
+                    <button onclick="down()">
+                        ↓
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
